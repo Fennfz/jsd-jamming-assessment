@@ -2,7 +2,7 @@
 
 const clientId = 'd69c36ddaced4b01bb8ff6b6c7d68365';
 
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://fenn-jsd-jamming.netlify.app';
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken = undefined;
 let expiresIn = undefined;
